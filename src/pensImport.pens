@@ -1,0 +1,5 @@
+(p1,status=down,posx=0,posy=1,heading=2º,colour=black,thickness=1,pattern=solid)
+(p2,status=,posx=,posy=3,heading=2º,colour=rgb 255 255 255,thickness=,pattern=dotted)
+(p3,status=,posx=,posy=2,heading=5º,colour=#ffffff,thickness=1,pattern=dashed)
+(p4,status=,posx=2,posy=3,heading=2º,colour=blue,thickness=,pattern=dotted)
+(p4,status=,posx=2,posy=3,heading=2º,colour=blue,thickness=,pattern=dotted)

@@ -1,0 +1,19 @@
+array-pen arr
+import "pensImport.pens" as arr
+array-colour cores = [red, purple, blue, green, yellow, rgb 255 0 255, #6b6b6b, rgb 0 255 0]
+pen pcool = get 0 from arr
+lower pcool
+pcool move to (-200, -50)
+pcool change -status=down
+num thicc = 2
+num max = 360
+print(length of cores)      ### 
+degree dg = -45º
+for i in range length of cores do { 
+    print(i)  
+    colour col = get i from cores
+    pcool move by (150, dg)
+    pcool change -thickness=thicc+1
+    pcool change -colour=col
+    dg = dg + 45º
+}

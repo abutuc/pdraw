@@ -1,0 +1,62 @@
+public class Execute extends pensBaseVisitor<String> {
+
+   @Override
+   public String visitProg(pensParser.ProgContext ctx) {
+      String res = null;
+      return visitChildren(ctx);
+      //return res;
+   }
+
+   @Override
+   public String visitCompleteDefinition(pensParser.CompleteDefinitionContext ctx) {
+      System.out.println(ctx.ID() + " " + visitPosX(ctx.posX()) + " " + visitPosY(ctx.posY()));
+      return visitChildren(ctx);
+      //return res;
+   }
+
+   @Override public String visitPosX(pensParser.PosXContext ctx) {
+      return ctx.expr().getText();
+      //return res;
+   }
+
+   @Override public String visitPosY(pensParser.PosYContext ctx) {
+      return ctx.expr().getText();
+      //return res;
+   }
+
+   @Override public String visitThickness(pensParser.ThicknessContext ctx) {
+      String res = null;
+      return visitChildren(ctx);
+      //return res;
+   }
+
+   @Override public String visitExprUnaryOp(pensParser.ExprUnaryOpContext ctx) {
+      String res = null;
+      return visitChildren(ctx);
+      //return res;
+   }
+
+   @Override public String visitExprAddSub(pensParser.ExprAddSubContext ctx) {
+      String res = null;
+      return visitChildren(ctx);
+      //return res;
+   }
+
+   @Override public String visitExprParent(pensParser.ExprParentContext ctx) {
+      String res = null;
+      return visitChildren(ctx);
+      //return res;
+   }
+
+   @Override public String visitExprNumber(pensParser.ExprNumberContext ctx) {
+      String res = null;
+      return visitChildren(ctx);
+      //return res;
+   }
+
+   @Override public String visitExprMultDiv(pensParser.ExprMultDivContext ctx) {
+      String res = null;
+      return visitChildren(ctx);
+      //return res;
+   }
+}

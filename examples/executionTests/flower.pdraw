@@ -1,0 +1,16 @@
+### creates a teal pen, ready to draw
+pen p1=()
+p1 change -heading=0º -colour=teal
+p1 change -status=down
+num i = 0
+num j = 0
+### uses p1 to draw a flower like pattern, applying 'move by's interchanged with 'rotates'
+for i in range(10) do {
+    for j in range(2) do {
+        p1 move by (100)
+        p1 rotate by 60º
+        p1 move by (100)
+        p1 rotate by 120º
+    }
+    p1 rotate by 36º
+}

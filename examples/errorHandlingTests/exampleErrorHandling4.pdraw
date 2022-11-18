@@ -1,0 +1,5 @@
+function fun(num a, num b) do {
+    return a + b
+}
+
+fun("string", 3)

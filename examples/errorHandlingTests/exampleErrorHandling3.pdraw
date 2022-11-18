@@ -1,0 +1,4 @@
+pen p1 = ()
+while p1 do {
+    print("It won't work")
+}

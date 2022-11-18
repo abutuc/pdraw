@@ -1,0 +1,29 @@
+### This program generates a curved line based on a number of elements of the Fibonacci sequence by the user.
+### PSA: Depending on the processing power of your device, this may take a while.
+
+num a = 0
+num b = 1
+num square_a = a
+num square_b = b
+pen p1=()
+p1 change -heading=90º -colour=red -pattern=solid
+p1 change -status=down
+print(p1)
+num i = 0
+num j = 0
+### uses p1 to draw a flower like pattern, applying 'move by's interchanged with 'rotates'
+num n = 0
+n = input num("How many Fibonnaci elements do you want to generate? (Preferably : ")
+for i in range(n) do { 
+    num fdwd = 3.14159 * b / 2
+    print(fdwd)
+    fdwd = fdwd / 90
+    print(fdwd)
+    for j in range(90) do { 
+        p1 move by (fdwd)
+        p1 rotate by (1º)
+    }
+    num temp = a
+    a = b 
+    b = temp + b
+}

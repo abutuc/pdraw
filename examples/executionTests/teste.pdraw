@@ -1,0 +1,17 @@
+#* initializes pen
+and an array of select colours
+*#
+pen p1
+p1 = ()
+array-colour axn = [fuchsia,green,lime,olive,yellow]
+### customize pen
+p1 change -colour=red -pattern=dashed -thickness=3
+p1 change -heading=0º
+p1 change -status=down
+### draws, cycling through colours
+num c = 0
+for c in range length of axn do {
+    p1 change -colour = get c from axn
+    p1 move by (100)
+    p1 rotate by 144º
+}

@@ -1,0 +1,27 @@
+### imports file pensImport.pens from pens (secundaria)
+array-pen arr
+import "pensImport.pens" as arr
+### creates an array of select colours 
+array-colour cores = [red, purple, blue, green, yellow, rgb 255 0 255, #6b6b6b, rgb 0 255 0]
+### creates a pen not ready to draw 
+pen pcool = get 0 from arr
+###raises pcool -> not ready to draw
+raise pcool
+### moves pen to target position
+pcool move to (-200, -50)
+### pen is now ready to draw 
+pcool change -status=down
+num thicc = 2
+num max = 360
+print(length of cores)
+degree dg = -45º
+### iterates over colours and draws a line with each, each thicker than the last, each line beeing 45 degrees removed from the last
+for i in range length of cores do { 
+    print(i)  
+    colour col = get i from cores
+    pcool move by (150, dg)
+    pcool change -thickness=thicc+1
+    pcool change -colour=col
+    dg = dg + 45º
+
+}

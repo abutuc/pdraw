@@ -1,0 +1,6 @@
+boolean flag = true
+if (flag) then {
+    if ("this is not boolean") then {
+        print("this won't run")
+    }
+}

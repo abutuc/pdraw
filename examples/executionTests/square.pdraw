@@ -1,0 +1,19 @@
+
+### creates a red pen, ready to draw
+pen p3 = (status=down,colour=red,thickness=3)
+### creates an array of select colours
+array-colour cores = [yellow, red, green, blue]
+num i = 10
+num lenCores = length of cores
+num count = 0
+### iterates over colours and draws a line in target direction with current colour
+### afterwards, rotates direction by 90 degrees and repeats
+for i in range lenCores do {
+    colour col = get count from cores
+    p3 change -colour=col
+    p3 move by (150) 
+    p3 rotate by (90º) 
+    print(col)
+
+    count = count + 1
+}

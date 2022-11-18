@@ -1,0 +1,6 @@
+array-num nums = [1,2,3,4]
+for i in nums do {
+    function fun1() do{
+        print("Still won't work.")
+    }
+}

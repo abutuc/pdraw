@@ -1,0 +1,2 @@
+array-pen pens = []
+add "not a pen" to pens
