@@ -3,14 +3,11 @@
 
 ## Group Rundown
 
-| NMec | Nome | email |
-|:--:|:---|:---|
-| 103530 | ANDRÉ GABRIEL BUTUC | andrebutuc@ua.pt
-| 102442 | DANIEL MARTINS FERREIRA | danielmartinsferreira@ua.pt
-| 103668 | GONÇALO RODRIGUES SILVA | goncalo.silva02@ua.pt
-| 103600 | GUILHERME COSTA ANTUNES | guilherme.antunes@ua.pt
-| 103182 | JOÃO RICARDO PAÇO MATOS | joaorpm02@ua.pt
-| 103541 | PEDRO MIGUEL RODRIGUES RASINHAS | rasinhas@ua.pt
+[abutuc](https://github.com/abutuc)
+[dferrero17](https://github.com/dferrero17)
+[GoncaloSilva25](https://github.com/GoncaloSilva25)
+[SysteM1922](https://github.com/SysteM1922)
+[r4sinhas](https://github.com/r4sinhas)
 
 ## Repo Structure
 
@@ -19,4 +16,3 @@
 - **doc** -- contextualization and documentation.
 
 - **examples** -- examples of working programs and of error handling.
-
